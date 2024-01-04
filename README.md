@@ -31,7 +31,7 @@ The system manages three main entities: Parking Spots, Vehicles, and Parking Tra
 
 ### Algorithm for Spot Allocation:
 
-A dynamic algorithm is employed to efficiently assign parking spots to incoming vehicles. This involves querying the database for available spots based on the vehicle size and using a mechanism, such as round-robin or nearest spot, to assign a suitable spot.
+A dynamic algorithm is employed to efficiently assign parking spots to incoming vehicles. This involves querying the database for available spots based on the vehicle size and using a mechanism, such as a round-robin or nearest spot, to assign a suitable spot.
 
 ### Fee Calculation Logic:
 
@@ -44,17 +44,17 @@ The system employs database transactions to ensure atomicity. Additionally, opti
 Diagrams
 --------
 
--   Architecture Diagram - Illustrates the overall architecture of the system.
--   [ERD Diagram](https://chat.openai.com/c/database-design.erd) - Entity-Relationship Diagram for the database schema.
--   [Deployment Diagram](https://chat.openai.com/c/deployment.diagram) - Depicts the deployment of the system on AWS.
--   [UML Diagram](https://chat.openai.com/c/uml-design.uml) - Represents the system flow and interactions.
+-   [Architecture Diagram] (https://github.com/adityarajmishra/parkingLotSystemLLD/blob/lld-design-v-0.0.1/architecture.diagram )- Illustrates the overall architecture of the system.
+-   [ERD Diagram](https://github.com/adityarajmishra/parkingLotSystemLLD/blob/lld-design-v-0.0.1/database-design.erd) - Entity-Relationship Diagram for the database schema.
+-   [Deployment Diagram](https://github.com/adityarajmishra/parkingLotSystemLLD/blob/lld-design-v-0.0.1/deployment.diagram) - Depicts the deployment of the system on AWS.
+-   [UML Diagram](https://github.com/adityarajmishra/parkingLotSystemLLD/blob/lld-design-v-0.0.1/uml-design.uml) - Represents the system flow and interactions.
 
 AWS Deployment
 --------------
 
 The system is deployed on AWS, utilizing services such as Amazon RDS for the database, EC2 instances for API servers, ElastiCache for caching, and CloudFront for CDN. The architecture ensures high availability, scalability, and fault tolerance.
 
-For detailed deployment instructions and design notes, refer to [DeploymentAWS.md](https://chat.openai.com/c/DeploymentAWS.md) and [Smart Parking Lot System DESIGN.md](https://chat.openai.com/c/Smart%20Parking%20Lot%20System%20DESIGN.md) respectively.
+For detailed deployment instructions and design notes, refer to [DeploymentAWS.md](https://github.com/adityarajmishra/parkingLotSystemLLD/blob/lld-design-v-0.0.1/DeploymentAWS.docx) and [Smart Parking Lot System DESIGN.md](https://github.com/adityarajmishra/parkingLotSystemLLD/blob/lld-design-v-0.0.1/Smart%20Parking%20Lot%20System%20DESIGN.docx) respectively.
 
 Usage
 -----
