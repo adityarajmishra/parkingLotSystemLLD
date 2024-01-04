@@ -44,7 +44,7 @@ The system employs database transactions to ensure atomicity. Additionally, opti
 Diagrams
 --------
 
--   [Architecture Diagram] (https://github.com/adityarajmishra/parkingLotSystemLLD/blob/lld-design-v-0.0.1/architecture.diagram )- Illustrates the overall architecture of the system.
+-   [Architecture Diagram](https://github.com/adityarajmishra/parkingLotSystemLLD/blob/lld-design-v-0.0.1/architecture.diagram )- Illustrates the overall architecture of the system.
 -   [ERD Diagram](https://github.com/adityarajmishra/parkingLotSystemLLD/blob/lld-design-v-0.0.1/database-design.erd) - Entity-Relationship Diagram for the database schema.
 -   [Deployment Diagram](https://github.com/adityarajmishra/parkingLotSystemLLD/blob/lld-design-v-0.0.1/deployment.diagram) - Depicts the deployment of the system on AWS.
 -   [UML Diagram](https://github.com/adityarajmishra/parkingLotSystemLLD/blob/lld-design-v-0.0.1/uml-design.uml) - Represents the system flow and interactions.
