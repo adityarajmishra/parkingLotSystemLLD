@@ -1,0 +1,9 @@
++------------------+     +------------------+     +-----------------------+
+|   ParkingSpots   |     |    Vehicles      |     | ParkingTransactions  |
++------------------+     +------------------+     +-----------------------+
+| spot_id (PK)     |     | vehicle_id (PK)  |     | transaction_id (PK)  |
+| floor_number     |     | license_plate    |     | vehicle_id (FK)      |
+| spot_number      |     | size             |     | entry_time            |
+| size             |     +------------------+     | exit_time             |
+| availability     |                             | fee                   |
++------------------+                             +-----------------------+
